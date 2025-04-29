@@ -1,3 +1,20 @@
+// ==UserScript==
+// @name        ItsOpus
+// @namespace   http://tampermonkey.net/
+// @match       https://voxiom.io/*
+// @run-at      document-start
+// @grant       none
+// @version     1.0.1
+// @author      Opus
+// @description Tôi hiền
+// @license     GPL
+// @require     https://cdn.jsdelivr.net/npm/lil-gui@0.19.2/dist/lil-gui.umd.min.js
+// @require     https://unpkg.com/three@0.150.0/build/three.min.js
+// @icon        https://www.google.com/s2/favicons?sz=64&domain=voxiom.io
+// @downloadURL https://update.greasyfork.org/scripts/520188/VOXploit.user.js
+// @updateURL https://update.greasyfork.org/scripts/520188/VOXploit.meta.js
+// ==/UserScript==
+
 const THREE = window.THREE;
 delete window.THREE;
 
